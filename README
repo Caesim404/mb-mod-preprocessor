@@ -2,9 +2,9 @@ Allows injecting code into MB module before compilation.
 
 Needs python 2.
 
-Copy the compile.py file to the same folder you mod source files are. Also make scripts directory.
+Copy the compile.py file to the same folder your mod source files are. Also make scripts directory.
 
-The scripts are located in "scripts" folder. Each is a *.py file. 
+The scripts are located in "scripts" folder. Each is in a *.py file. 
 
 Each script should contain "from pp import *" at the beginning.
 After that you can modify the variables in each module as you wish.
@@ -13,4 +13,4 @@ Do check if mutation applies.
 
 All header_*/ID_*/module_* variables will be imported automatically with pp.
 
-When ready simply run compile.py and it will be compiled as normal.
+When ready simply run compile.py and it will be compiled as normal with the applied changes.
